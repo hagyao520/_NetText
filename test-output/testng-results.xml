@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30159" started-at="2017-05-03T10:05:06Z" finished-at="2017-05-03T10:05:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30159" started-at="2017-05-03T10:05:06Z" finished-at="2017-05-03T10:05:36Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.LoginTest@77f88cce]" name="setup" is-config="true" duration-ms="10367" started-at="2017-05-03T18:05:06Z" finished-at="2017-05-03T18:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testlogin(org.w3c.dom.Document)[pri:0, instance:TestCases.LoginTest@77f88cce]" name="testlogin" duration-ms="19349" started-at="2017-05-03T18:05:16Z" data-provider="Test_xml_dataprovider" finished-at="2017-05-03T18:05:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[#document: null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.LoginTest@77f88cce]" name="teardown" is-config="true" duration-ms="420" started-at="2017-05-03T18:05:35Z" finished-at="2017-05-03T18:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
